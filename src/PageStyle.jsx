@@ -19,7 +19,7 @@ const PageStyle = styled.div`
       width: 100%;
       height: 100%;
       margin: auto;
-      padding: 0 3rem;
+      padding: 0 6rem;
     }
     .title-box {
       position: absolute;
@@ -61,7 +61,7 @@ const PageStyle = styled.div`
     .main-box {
       max-width: 192rem;
       margin: auto;
-      padding: 6rem 3rem;
+      padding: 6rem;
       width: 100%;
     }
   }
