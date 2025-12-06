@@ -10,9 +10,11 @@ function App() {
       <Header />
 
       <main className="main">
-        <About />
-        <Projects />
-        <Contact />
+        <div className="main-box">
+          <About />
+          <Projects />
+          <Contact />
+        </div>
       </main>
     </PageStyle>
   )

@@ -6,24 +6,32 @@ function About() {
       <div className="section-area">
         <div className="section-top">
           <div className="title-box">
-            <h2 className="title">About</h2>
+            <h2
+              className="title"
+              lang="en">
+              About
+            </h2>
           </div>
         </div>
         <div className="section-bottom">
           <div className="content-box">
             <div className="content-desc-box">
-              <p>운영형 서비스 경험 기반으로, 안정성과 사용자 경험을 함께 개선해온 4년차 웹 퍼블리셔입니다.</p>
               <p>
-                시멘틱 마크업과 반응형, 접근성을 기반으로 <strong>구조화된 퍼블리싱을 지향하며</strong>,<br />
-                기획·디자인·개발과의 협업을 통해 <strong>실서비스 품질 개선</strong>에 기여해왔습니다.
+                구축과 운영 프로젝트 모두를 경험하며, 안정성과 사용자 경험을 함께 개선해온 4년차 웹 퍼블리셔입니다.
                 <br />
-                운영 대응 경험으로 빠른 문제해결 역량을 갖추었고, <strong>지속 가능한 코드 품질</strong>을 중요하게 생각합니다.
+                시멘틱 마크업과 반응형, 접근성을 기반으로 유지보수성과 확장성을 고려한 퍼블리싱을 지향합니다.
+                <br />
+                기획·디자인·개발과의 협업을 통해 실서비스 품질을 개선해왔으며, 빠른 문제 해결과 지속 가능한 코드 품질을 중요하게 생각합니다.
               </p>
             </div>
           </div>
           <div className="content-box">
             <div className="content-title-box">
-              <h3 className="content-title">Strengths</h3>
+              <h3
+                className="content-title"
+                lang="en">
+                Core Strengths
+              </h3>
             </div>
             <div className="content-desc-box">
               <ul className="content-list">

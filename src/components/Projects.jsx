@@ -1,8 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination } from 'swiper/modules'
-import 'swiper/css'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
+import { EffectFade, Navigation } from 'swiper/modules'
 
 function Projects() {
   const projectImages01 = [
@@ -43,7 +40,11 @@ function Projects() {
       <div className="section-area">
         <div className="section-top">
           <div className="title-box">
-            <h2 className="title">Projects</h2>
+            <h2
+              className="title"
+              lang="en">
+              Projects
+            </h2>
           </div>
         </div>
         <div className="section-bottom">
@@ -51,16 +52,24 @@ function Projects() {
             <ul className="project-lists">
               <li className="project-list">
                 <div className="project-title-box">
-                  <h3 className="project-title">현대자동차 태국 온라인 구축 (Global Web Publishing)</h3>
+                  <h3 className="project-title">
+                    1. 현대자동차 태국 온라인 서비스 구축
+                    <a
+                      href="https://www.hyundai.com/th/en"
+                      className="project-link"
+                      target="_blank">
+                      🔗 링크
+                    </a>
+                  </h3>
                 </div>
                 <div className="project-content-box">
                   <div className="project-slide-box">
                     <Swiper
-                      modules={[Navigation, Pagination]}
+                      modules={[Navigation, EffectFade]}
+                      effect="fade"
                       spaceBetween={0}
                       slidesPerView={1}
                       navigation
-                      pagination={{ clickable: true }}
                       loop={true}>
                       {projectImages01.map((image, index) => (
                         <SwiperSlide key={index}>
@@ -73,7 +82,14 @@ function Projects() {
                     </Swiper>
                   </div>
                   <div className="project-info-box">
-                    <div className="meta">2022.11 ~ 2023.04 | UI 퍼블리싱 | Hyundai AutoEver / 글로벌 서비스</div>
+                    <div className="meta">
+                      2022.11 - 2023.04
+                      <span
+                        className="company"
+                        lang="en">
+                        Hyundai Autoever
+                      </span>
+                    </div>
                     <div className="desc">EN/TH 다국어 대응 및 컴포넌트 기반 구조화로 유지보수성과 확장성을 높였고, 반응형 구현과 Git 협업을 통해 일정 내 안정적인 런칭을 이끌었습니다.</div>
                     <div className="info-list-box">
                       <div className="info-list">
@@ -97,28 +113,21 @@ function Projects() {
                         </ul>
                       </div>
                     </div>
-                    <div className="link-box">
-                      <a
-                        href="https://www.hyundai.com/th/en"
-                        className="link">
-                        🔗 https://www.hyundai.com/th/en
-                      </a>
-                    </div>
                   </div>
                 </div>
               </li>
               <li className="project-list">
                 <div className="project-title-box">
-                  <h3 className="project-title">SK브로드밴드 B tv UI 구축 및 운영</h3>
+                  <h3 className="project-title">2. SK브로드밴드 B tv UI 구축 및 운영</h3>
                 </div>
                 <div className="project-content-box">
                   <div className="project-slide-box">
                     <Swiper
-                      modules={[Navigation, Pagination]}
+                      modules={[Navigation, EffectFade]}
+                      effect="fade"
                       spaceBetween={0}
                       slidesPerView={1}
                       navigation
-                      pagination={{ clickable: true }}
                       loop={true}>
                       {projectImages02.map((image, index) => (
                         <SwiperSlide key={index}>
@@ -131,10 +140,17 @@ function Projects() {
                     </Swiper>
                   </div>
                   <div className="project-info-box">
-                    <div className="meta">2022.03 ~ 진행 | UI 퍼블리싱 주도 | SK Broadband</div>
+                    <div className="meta">
+                      2022.03 - 2025.12
+                      <span
+                        className="company"
+                        lang="en">
+                        SK Broadband
+                      </span>
+                    </div>
                     <div className="desc">
-                      B tv 웹 서비스의 핵심 UI 컴포넌트를 단독으로 구축하고 운영 이슈를 지속적으로 대응했습니다. Vue.js 기반 개발 환경과 공통 컴포넌트 적용을 통해 안정성과 일관성을 유지하며, QA/디자인
-                      검수에 대한 빠른 피드백 반영으로 서비스 품질 향상에 기여했습니다.
+                      B tv 웹 서비스의 핵심 UI 컴포넌트를 단독으로 구축하고 운영 이슈를 지속적으로 대응했습니다. <br />
+                      Vue.js 기반 개발 환경과 공통 컴포넌트 적용을 통해 안정성과 일관성을 유지하며, QA/디자인 검수에 대한 빠른 피드백 반영으로 서비스 품질 향상에 기여했습니다.
                     </div>
                     <div className="info-list-box">
                       <div className="info-list">
@@ -148,7 +164,7 @@ function Projects() {
                         </ul>
                       </div>
                       <div className="info-list">
-                        <div className="info-title">기술 스택 / 구현 방식</div>
+                        <div className="info-title">기술 스택</div>
                         <ul className="lists">
                           <li className="list">Vue.js 기반 템플릿 마크업 및 공통 컴포넌트 조립/적용</li>
                           <li className="list">Storybook 기반 컴포넌트 개발 및 문서화</li>
@@ -164,16 +180,24 @@ function Projects() {
               </li>
               <li className="project-list">
                 <div className="project-title-box">
-                  <h3 className="project-title">LG 전자 스마트코티지 구축</h3>
+                  <h3 className="project-title">
+                    3. LG 전자 스마트코티지 구축
+                    <a
+                      href="https://thesmartcottage.com/"
+                      className="project-link"
+                      target="_blank">
+                      🔗 링크
+                    </a>
+                  </h3>
                 </div>
                 <div className="project-content-box">
                   <div className="project-slide-box">
                     <Swiper
-                      modules={[Navigation, Pagination]}
+                      modules={[Navigation, EffectFade]}
+                      effect="fade"
                       spaceBetween={0}
                       slidesPerView={1}
                       navigation
-                      pagination={{ clickable: true }}
                       loop={true}>
                       {projectImages03.map((image, index) => (
                         <SwiperSlide key={index}>
@@ -186,10 +210,18 @@ function Projects() {
                     </Swiper>
                   </div>
                   <div className="project-info-box">
-                    <div className="meta">2024.03 ~ 2024.10 | UI 퍼블리싱 | LG 전자</div>
+                    <div className="meta">
+                      2024.03 - 2024.10
+                      <span
+                        className="company"
+                        lang="en">
+                        LG Electronics
+                      </span>
+                    </div>
                     <div className="desc">
-                      공통 컴포넌트 중심으로 설계해 서비스 확장 및 기능 추가 시에도 빠르게 대응할 수 있는 구조를 만들었습니다. JavaScript & SCSS 기반 인터랙션과 지도 API 구현, 전 디바이스 반응형
-                      대응을 통해 현재까지 안정적인 운영을 지원하고 있습니다.
+                      공통 컴포넌트 중심으로 설계해 서비스 확장 및 기능 추가 시에도 빠르게 대응할 수 있는 구조를 만들었습니다.
+                      <br />
+                      JavaScript & SCSS 기반 인터랙션과 지도 API 연결, 전 디바이스 반응형 대응을 통해 현재까지 안정적인 운영을 지원하고 있습니다.
                     </div>
                     <div className="info-list-box">
                       <div className="info-list">
@@ -210,13 +242,6 @@ function Projects() {
                           <li className="list">Git 기반 버전 관리 및 협업</li>
                         </ul>
                       </div>
-                    </div>
-                    <div className="link-box">
-                      <a
-                        href="https://thesmartcottage.com/"
-                        className="link">
-                        🔗 https://thesmartcottage.com/
-                      </a>
                     </div>
                   </div>
                 </div>

@@ -3,7 +3,11 @@ function Header() {
     <header className="header">
       <div className="header-box">
         <div className="title-box">
-          <div className="title">Chaeyoung Ryoo</div>
+          <div
+            className="title"
+            lang="en">
+            Chaeyoung Ryoo
+          </div>
         </div>
         <nav className="gnb-box">
           <ul className="gnb-lists">
@@ -11,21 +15,21 @@ function Header() {
               <a
                 href="#about"
                 className="gnb-link">
-                <span>About</span>
+                <span lang="en">About</span>
               </a>
             </li>
             <li className="gnb-list">
               <a
                 href="#projects"
                 className="gnb-link">
-                <span>Projects</span>
+                <span lang="en">Projects</span>
               </a>
             </li>
             <li className="gnb-list">
               <a
                 href="#contact"
                 className="gnb-link">
-                <span>Contact</span>
+                <span lang="en">Contact</span>
               </a>
             </li>
           </ul>
