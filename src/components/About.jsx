@@ -27,11 +27,11 @@ function About() {
             </div>
             <div className="content-desc-box">
               <ul className="content-list">
+                <li>웹 접근성 심사 통과 및 개선 경험 다수</li>
                 <li>반응형 및 컴포넌트 구조 기반 퍼블리싱</li>
                 <li>기획·디자인·개발과의 원활한 협업 커뮤니케이션</li>
                 <li>디자인 검수·QA 이슈의 빠르고 정확한 대응</li>
                 <li>운영 이슈 대응 및 안정성·성능 개선 경험</li>
-                <li>다국어 웹 구축 및 글로벌 브랜드 가이드 준수</li>
                 <li>JavaScript + SCSS 기반 UI 인터랙션 구현</li>
                 <li>크로스브라우징 대응 및 환경 제약 최적화</li>
               </ul>
