@@ -24,7 +24,7 @@ const PageStyle = styled.div`
     .title-box {
       position: absolute;
       top: 50%;
-      left: 3rem;
+      left: 6rem;
       transform: translateY(-50%);
       font-weight: 200;
     }
