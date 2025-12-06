@@ -10,7 +10,7 @@ const PageStyle = styled.div`
     font-size: 1.6rem;
     font-weight: 500;
     background-color: #fff;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
     .header-box {
       display: flex;
       justify-content: center;
@@ -69,7 +69,7 @@ const PageStyle = styled.div`
     & + .section-container {
       margin-top: 6rem;
       padding-top: 4rem;
-      border-top: 1px solid #eee;
+      border-top: 1px solid #ddd;
     }
     .section-top {
       .title-box {
@@ -224,7 +224,7 @@ const PageStyle = styled.div`
         .info-list {
           flex: 1;
           padding: 2rem;
-          border: 1px solid #eee;
+          border: 1px solid #ddd;
           border-radius: 0.8rem;
         }
         .info-title {
