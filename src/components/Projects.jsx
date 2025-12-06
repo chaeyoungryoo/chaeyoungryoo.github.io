@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { EffectFade, Navigation } from 'swiper/modules'
+import { EffectFade, Navigation, Pagination } from 'swiper/modules'
 
 function Projects() {
   const projectImages01 = [
@@ -65,11 +65,12 @@ function Projects() {
                 <div className="project-content-box">
                   <div className="project-slide-box">
                     <Swiper
-                      modules={[Navigation, EffectFade]}
+                      modules={[Navigation, EffectFade, Pagination]}
                       effect="fade"
                       spaceBetween={0}
                       slidesPerView={1}
                       navigation
+                      pagination={{ clickable: true }}
                       loop={true}>
                       {projectImages01.map((image, index) => (
                         <SwiperSlide key={index}>
@@ -123,11 +124,12 @@ function Projects() {
                 <div className="project-content-box">
                   <div className="project-slide-box">
                     <Swiper
-                      modules={[Navigation, EffectFade]}
+                      modules={[Navigation, EffectFade, Pagination]}
                       effect="fade"
                       spaceBetween={0}
                       slidesPerView={1}
                       navigation
+                      pagination={{ clickable: true }}
                       loop={true}>
                       {projectImages02.map((image, index) => (
                         <SwiperSlide key={index}>
@@ -193,11 +195,12 @@ function Projects() {
                 <div className="project-content-box">
                   <div className="project-slide-box">
                     <Swiper
-                      modules={[Navigation, EffectFade]}
+                      modules={[Navigation, EffectFade, Pagination]}
                       effect="fade"
                       spaceBetween={0}
                       slidesPerView={1}
                       navigation
+                      pagination={{ clickable: true }}
                       loop={true}>
                       {projectImages03.map((image, index) => (
                         <SwiperSlide key={index}>

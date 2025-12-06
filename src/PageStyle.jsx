@@ -117,6 +117,15 @@ const PageStyle = styled.div`
               flex-shrink: 0;
               margin-right: 0.8rem;
             }
+            &:has(a) {
+              flex-wrap: wrap;
+            }
+            * {
+              flex-shrink: 0;
+            }
+            a {
+              color: #444;
+            }
           }
         }
       }
@@ -186,12 +195,29 @@ const PageStyle = styled.div`
         right: 0;
         transform: translateY(-50%);
       }
+      .swiper-pagination {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.8rem;
+        .swiper-pagination-bullet {
+          width: 0.8rem;
+          height: 0.8rem;
+          border-radius: 50%;
+          background-color: #ddd;
+        }
+        .swiper-pagination-bullet-active {
+          background-color: #000;
+        }
+      }
     }
     .project-info-box {
+      margin-top: 3rem;
       .meta {
         display: flex;
         align-items: center;
-        gap: 1rem;
+        flex-wrap: wrap;
+        gap: 0.4rem 1rem;
         font-size: 1.8rem;
         font-weight: 500;
         color: #444;
@@ -201,13 +227,6 @@ const PageStyle = styled.div`
           align-items: center;
           font-size: 1.4rem;
           color: #888;
-          &::before {
-            content: '|';
-            position: relative;
-            top: -0.1rem;
-            margin-right: 1rem;
-            color: #444;
-          }
         }
       }
       .desc {
@@ -252,6 +271,14 @@ const PageStyle = styled.div`
     }
   }
 
+  @media (max-width: 1024px) {
+    .header {
+      .header-box {
+        justify-content: flex-end;
+      }
+    }
+  }
+
   @media (max-width: 768px) {
     .header {
       height: 8rem;
@@ -285,22 +312,20 @@ const PageStyle = styled.div`
         margin-top: 6rem;
       }
       .project-info-box {
-        margin-top: 2.8rem;
         .info-list-box {
           flex-direction: column;
         }
       }
       .swiper {
         .swiper-slide {
-          padding: 0 2rem;
+          padding: 0;
         }
         .swiper-button-prev,
         .swiper-button-next {
-          width: 2.4rem;
-          height: 2.4rem;
-          .swiper-navigation-icon {
-            transform: scale(1);
-          }
+          display: none;
+        }
+        .swiper-pagination {
+          margin-top: 1rem;
         }
       }
     }
