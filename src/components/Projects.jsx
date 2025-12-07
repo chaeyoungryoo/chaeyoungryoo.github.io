@@ -92,31 +92,30 @@ function Projects() {
                       </span>
                     </div>
                     <div className="desc">
-                      다국어(EN/TH) 기반 글로벌 사이트 구축 퍼블리싱을 담당했습니다.
+                      영어와 태국어를 지원하는 현대자동차 태국 공식 웹사이트 구축에 참여했습니다.
                       <br />
-                      Git 협업과 공통 컴포넌트 구조 설계를 통해 소스 품질을 관리했습니다.
+                      차량 비교, 옵션 선택 등 복잡한 인터랙션이 필요한 화면을 중심으로 작업했고, 재사용 가능한 공통 컴포넌트를 설계해 개발팀과의 협업 효율을 높였습니다.
                       <br />
-                      접근성과 반응형도 고려하며 안정적으로 납기 내 완료했습니다.
+                      현대 내부망이라는 제한된 환경에서도 일정에 맞춰 안정적으로 론칭을 완료했습니다.
                     </div>
                     <div className="info-list-box">
                       <div className="info-list">
                         <div className="info-title">역할</div>
                         <ul className="lists">
-                          <li className="list">현대 내부망 환경에서 글로벌 웹 구축 퍼블리싱 담당</li>
-                          <li className="list">EN/TH 다국어 서비스 UI 공통 컴포넌트 설계</li>
-                          <li className="list">모바일·태블릿·PC 반응형 레이아웃 제작</li>
-                          <li className="list">QA·디자인·개발 간 커뮤니케이션 주도</li>
-                          <li className="list">글로벌 론칭 일정 내 안정적 전달</li>
+                          <li className="list">메인 페이지, 차량 목록, 옵션 선택 등 핵심 화면 퍼블리싱 전담</li>
+                          <li className="list">영어/태국어 전환에 대응하는 UI 컴포넌트 구조 설계</li>
+                          <li className="list">모바일에서 PC까지 모든 해상도에서 깨지지 않는 반응형 구현</li>
+                          <li className="list">디자인팀 피드백과 QA 이슈를 취합해 개발팀에 전달하는 중간 역할 수행</li>
+                          <li className="list">태국 현지 론칭 일정에 맞춰 전체 산출물 검수 및 전달</li>
                         </ul>
                       </div>
 
                       <div className="info-list">
                         <div className="info-title">기술 스택</div>
                         <ul className="lists">
-                          <li className="list">HTML, SCSS 기반 컴포넌트 단위 구조화</li>
-                          <li className="list">이미지 최적화 및 Lazy Loading 적용</li>
-                          <li className="list">언어별 UI/텍스트 분리로 다국어 대응</li>
-                          <li className="list">Git 기반 버전 관리 및 협업</li>
+                          <li className="list">HTML, SCSS로 버튼·카드·모달 등 재사용 컴포넌트 제작</li>
+                          <li className="list">이미지 용량 최적화 및 스크롤 시점에 맞춘 Lazy Loading 적용</li>
+                          <li className="list">언어별 텍스트 길이 차이를 고려한 유연한 레이아웃 설계</li>
                         </ul>
                       </div>
                     </div>
@@ -157,32 +156,32 @@ function Projects() {
                       </span>
                     </div>
                     <div className="desc">
-                      SKB B tv UI 퍼블리싱을 담당했습니다.
+                      TV 셋톱박스에서 동작하는 B tv 웹 UI를 3년 넘게 구축하고 운영했습니다.
                       <br />
-                      다양한 구형 환경에서도 안정적인 UI를 제공하기 위해 구조 개선 및 공통 컴포넌트 기반으로 작업했습니다.
+                      리모컨 조작에 최적화된 포커스 이동, 화면 전환 애니메이션 등 TV 환경 특유의 인터랙션을 구현했습니다.
                       <br />
-                      Jira/Confluence 협업과 철저한 QA 대응을 통해 서비스 품질 개선에 기여했습니다.
+                      수년간 쌓인 코드를 정리하면서도 서비스 안정성을 유지하는 데 집중했습니다.
                     </div>
                     <div className="info-list-box">
                       <div className="info-list">
                         <div className="info-title">역할</div>
                         <ul className="lists">
-                          <li className="list">B tv 웹 서비스 주요 카테고리 퍼블리싱 단독 담당</li>
-                          <li className="list">서비스 운영 중 발생하는 이슈 대응 및 지속적인 UI 유지보수</li>
-                          <li className="list">버전업 시 검수 및 QA 피드백을 빠르고 정확하게 반영</li>
-                          <li className="list">Jira / Confluence를 활용한 업무·이슈 관리</li>
-                          <li className="list">프론트엔드 개발자와의 긴밀한 커뮤니케이션을 통한 협업</li>
+                          <li className="list">메인, 검색, 시놉시스, 마이페이지, 편성표 등 모든 카테고리 퍼블리싱 전담</li>
+                          <li className="list">월 평균 10건 이상의 운영 이슈를 빠르게 파악하고 수정</li>
+                          <li className="list">매 버전 배포 전 QA팀과 함께 전수 검수 진행 후 피드백 즉시 반영</li>
+                          <li className="list">Jira 티켓 기반으로 업무 일감을 체계적으로 관리</li>
+                          <li className="list">프론트엔드 개발자와 소통하며 마크업과 로직 간 이슈 최소화</li>
                         </ul>
                       </div>
                       <div className="info-list">
                         <div className="info-title">기술 스택</div>
                         <ul className="lists">
-                          <li className="list">Vue.js 기반 템플릿 마크업 및 공통 컴포넌트 조립/적용</li>
-                          <li className="list">Storybook 기반 컴포넌트 개발 및 문서화</li>
-                          <li className="list">사내 공통 컴포넌트 라이브러리를 활용한 화면 구축</li>
-                          <li className="list">SCSS 기반 애니메이션 구현 (화면 전환, 포커스 이동 등)</li>
-                          <li className="list">TV UI 특성을 고려해 구형 기기 및 크롬 구버전에서도 안정적으로 동작하도록 구현</li>
-                          <li className="list">Git 기반 버전 관리 및 협업</li>
+                          <li className="list">Vue.js 환경에서 퍼블리싱 작업 진행</li>
+                          <li className="list">Storybook으로 컴포넌트 아카이빙 진행</li>
+                          <li className="list">사내 디자인 시스템 컴포넌트를 조합해 화면 단위로 조립</li>
+                          <li className="list">SCSS 키프레임으로 포커스 이동, 화면 전환 등 애니메이션 구현</li>
+                          <li className="list">Chrome 구버전에서도 깨지지 않도록 CSS fallback 처리</li>
+                          <li className="list">Git을 통한 버전별 배포 이력 관리</li>
                         </ul>
                       </div>
                     </div>
@@ -231,27 +230,28 @@ function Projects() {
                       </span>
                     </div>
                     <div className="desc">
-                      반응형 UI와 JavaScript 인터랙션 기반의 퍼블리싱을 담당했습니다.
+                      모듈러 주택 서비스인 '스마트코티지' 웹사이트를 처음부터 구축했습니다.
                       <br />
-                      지도 API 적용 및 공통 컴포넌트 구조로 유지보수성을 높였고, 신규 서비스 기능이 추가될 때마다 빠르게 대응했습니다.
+                      사용자가 원하는 위치를 지도에서 선택하고, 주택 옵션을 커스터마이징하는 인터랙티브한 흐름을 구현했습니다.
+                      <br />
+                      서비스가 확장될 때마다 새로운 기능을 빠르게 추가할 수 있도록 확장성 있는 구조로 설계했습니다.
                     </div>
                     <div className="info-list-box">
                       <div className="info-list">
                         <div className="info-title">역할</div>
                         <ul className="lists">
-                          <li className="list">컴포넌트 단위 구조화로 유지보수 효율 극대화</li>
-                          <li className="list">신규 서비스 추가 시 빠른 퍼블리싱 대응</li>
-                          <li className="list">디자인·기획·개발과 협업하며 일정 지연 없이 납기 준수</li>
+                          <li className="list">메인, 서비스 소개, 옵션 선택, 지도 연동 화면 등 전체 페이지 퍼블리싱</li>
+                          <li className="list">신규 프로모션 페이지 요청 시 평균 2~3일 내 작업 완료</li>
+                          <li className="list">기획 변경이 잦은 초기 단계에서 디자이너와 실시간 소통하며 유연하게 대응</li>
                         </ul>
                       </div>
 
                       <div className="info-list">
                         <div className="info-title">기술 스택</div>
                         <ul className="lists">
-                          <li className="list">JavaScript + SCSS 기반 인터랙션 UI 구현</li>
-                          <li className="list">Naver Maps 기반 지도 API 연동</li>
-                          <li className="list">HTML, SCSS 기반 컴포넌트 단위 구조화</li>
-                          <li className="list">Git 기반 버전 관리 및 협업</li>
+                          <li className="list">Vanilla JavaScript로 인터랙션 구현</li>
+                          <li className="list">Naver Maps API 연동</li>
+                          <li className="list">SCSS 변수와 믹스인으로 컬러, 폰트 스타일 일관성 유지</li>
                         </ul>
                       </div>
                     </div>
@@ -282,7 +282,7 @@ function Projects() {
                         <div className="card-bottom">
                           <div className="date">2024.07 - 2025.12</div>
                           <div className="desc">
-                            <p>긴급 보안 이슈(해킹)에 따른 UI 개선을 빠르게 수행하고, 디자인 리뉴얼과 운영 요구 사항을 병행하며 서비스 품질을 지속적으로 개선했습니다.</p>
+                            <p>올해 진행된 디자인 개편과 정기 운영 요구 사항을 병행했으며, 지난 4월 보안 관련 긴급 대응도 신속하게 수행했습니다.</p>
                           </div>
                         </div>
                       </li>
@@ -299,7 +299,7 @@ function Projects() {
                         <div className="card-bottom">
                           <div className="date">2024.01 - 2024.04</div>
                           <div className="desc">
-                            <p>전기차 충전 웹앱 퍼블리싱을 담당했으며, 접근성 심사를 통과(WCAG AA 준수)하고 납기일에 맞춰 완료했습니다.</p>
+                            <p>전기차 충전소 찾기·결제 웹앱의 전체 화면을 퍼블리싱했습니다. 시각장애인 사용자를 고려해 스크린리더 테스트를 직접 수행하며 WCAG AA 인증을 획득했습니다.</p>
                           </div>
                         </div>
                       </li>
@@ -316,7 +316,7 @@ function Projects() {
                         <div className="card-bottom">
                           <div className="date">2023.05 - 2023.08</div>
                           <div className="desc">
-                            <p>건물 관리 웹 솔루션을 삼성에스원 가이드에 맞춰 적응형 UI로 퍼블리싱하여, 다양한 환경에서 안정적인 UX를 제공했습니다.</p>
+                            <p>건물 내 보안 현황을 모니터링하는 관리자용 대시보드를 구축했습니다. 모바일/태블릿과 데스크톱 환경에 맞춘 적응형 레이아웃으로 작업하였습니다.</p>
                           </div>
                         </div>
                       </li>
@@ -333,7 +333,10 @@ function Projects() {
                         <div className="card-bottom">
                           <div className="date">2023.07 - 2023.10</div>
                           <div className="desc">
-                            <p>현대자동차 IR 페이지를 기업 디자인 가이드에 맞춰 구조화하고, 반응형 기반으로 안정적인 UI를 퍼블리싱했습니다.</p>
+                            <p>
+                              투자자를 위한 재무 정보, 공시 자료, IR 캘린더 등을 제공하는 페이지를 리뉴얼했습니다. 복잡한 표와 차트 콘텐츠가 모바일에서도 가독성을 유지할 수 있는 반응형으로
+                              구현했습니다.
+                            </p>
                           </div>
                         </div>
                       </li>
