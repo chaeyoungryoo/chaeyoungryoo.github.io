@@ -61,7 +61,7 @@ const PageStyle = styled.div`
     .main-box {
       max-width: 192rem;
       margin: auto;
-      padding: 6rem;
+      padding: 6rem 6rem 10rem;
       width: 100%;
     }
   }
@@ -270,11 +270,101 @@ const PageStyle = styled.div`
       }
     }
   }
+  .project-card-box {
+    .project-cards {
+      display: flex;
+      gap: 1.2rem;
+      flex-wrap: wrap;
+    }
+    .project-card {
+      flex: 0 0 calc((100% - 6rem) / 4);
+      padding: 2rem;
+      background-color: #f5f5f5;
+      border-radius: 0.8rem;
+      transition: transform 0.2s;
+      transform: translateY(0);
+      @media (hover: hover) {
+        &:hover {
+          transform: translateY(-1rem);
+        }
+      }
+      &.lge {
+        .card-top {
+          .logo-box {
+            img {
+              position: relative;
+              top: 0.4rem;
+              height: 3.2rem;
+            }
+          }
+        }
+      }
+      &.s1 {
+        .card-top {
+          .logo-box {
+            img {
+              height: 2.8rem;
+            }
+          }
+        }
+      }
+      &.hyundai {
+        .card-top {
+          .logo-box {
+            img {
+              position: relative;
+              top: 0.8rem;
+              max-width: 17rem;
+            }
+          }
+        }
+      }
+      .card-top {
+        display: flex;
+        flex-direction: column;
+        min-height: 9.6rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #222;
+        line-height: 1.4;
+        .logo-box {
+          display: flex;
+          align-items: flex-end;
+          height: 4rem;
+          img {
+            width: auto;
+            object-fit: contain;
+          }
+        }
+        .name {
+          flex: 1;
+          display: flex;
+          align-items: flex-end;
+          margin-top: 1rem;
+        }
+      }
+      .card-bottom {
+        margin-top: 0.8rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #444;
+        line-height: 1.4;
+        .date {
+          color: #888;
+        }
+      }
+    }
+  }
 
   @media (max-width: 1024px) {
     .header {
       .header-box {
         justify-content: flex-end;
+      }
+    }
+    .project-card-box {
+      .project-card {
+        flex: 0 0 calc((100% - 1.2rem) / 2);
       }
     }
   }
@@ -304,7 +394,7 @@ const PageStyle = styled.div`
     }
     .main {
       .main-box {
-        padding: 4rem 2rem;
+        padding: 4rem 2rem 6rem;
       }
     }
     .project-list {
@@ -327,6 +417,11 @@ const PageStyle = styled.div`
         .swiper-pagination {
           margin-top: 1rem;
         }
+      }
+    }
+    .project-card-box {
+      .project-card {
+        flex: 0 0 100%;
       }
     }
   }

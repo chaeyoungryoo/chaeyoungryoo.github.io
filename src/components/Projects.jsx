@@ -249,6 +249,89 @@ function Projects() {
                   </div>
                 </div>
               </li>
+              <li className="project-list">
+                <div className="project-title-box">
+                  <h3
+                    className="project-title"
+                    lang="en">
+                    More Projects
+                  </h3>
+                </div>
+                <div className="project-content-box">
+                  <div className="project-card-box">
+                    <ul className="project-cards">
+                      <li className="project-card skt">
+                        <div className="card-top">
+                          <div className="logo-box">
+                            <img
+                              src="assets/images/logo-skt.svg"
+                              alt="SKT logo"
+                            />
+                          </div>
+                          <div className="name">SKT 보이는 ARS</div>
+                        </div>
+                        <div className="card-bottom">
+                          <div className="date">2024.07 - 2025.12</div>
+                          <div className="desc">
+                            <p>긴급 보안 이슈(해킹)에 따른 UI 개선을 빠르게 수행하고, 디자인 리뉴얼과 운영 요구 사항을 병행하며 서비스 품질을 지속적으로 개선했습니다.</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li className="project-card lge">
+                        <div className="card-top">
+                          <div className="logo-box">
+                            <img
+                              src="assets/images/logo-lge.svg"
+                              alt="LGE logo"
+                            />
+                          </div>
+                          <div className="name">LGE E-Centric</div>
+                        </div>
+                        <div className="card-bottom">
+                          <div className="date">2024.01 - 2024.04</div>
+                          <div className="desc">
+                            <p>전기차 충전 웹앱 퍼블리싱을 담당했으며, 접근성 심사를 통과(WCAG AA 준수)하고 납기일에 맞춰 완료했습니다.</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li className="project-card s1">
+                        <div className="card-top">
+                          <div className="logo-box">
+                            <img
+                              src="assets/images/logo-s1.svg"
+                              alt="S1 logo"
+                            />
+                          </div>
+                          <div className="name">삼성에스원 건물 관리 웹 솔루션</div>
+                        </div>
+                        <div className="card-bottom">
+                          <div className="date">2023.05 - 2023.08</div>
+                          <div className="desc">
+                            <p>건물 관리 웹 솔루션을 삼성에스원 가이드에 맞춰 적응형 UI로 퍼블리싱하여, 다양한 환경에서 안정적인 UX를 제공했습니다.</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li className="project-card hyundai">
+                        <div className="card-top">
+                          <div className="logo-box">
+                            <img
+                              src="assets/images/logo-hyundai.svg"
+                              alt="Hyundai logo"
+                            />
+                          </div>
+                          <div className="name">현대자동차 IR 개편</div>
+                        </div>
+                        <div className="card-bottom">
+                          <div className="date">2023.07 - 2023.10</div>
+                          <div className="desc">
+                            <p>현대자동차 IR 페이지를 기업 디자인 가이드에 맞춰 구조화하고, 반응형 기반으로 안정적인 UI를 퍼블리싱했습니다.</p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
