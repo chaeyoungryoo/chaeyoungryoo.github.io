@@ -16,7 +16,7 @@ function Contact() {
         <div className="section-bottom">
           <div className="content-box">
             <div className="content-title-box">
-              <p class="sub-title">협업 및 제안 관련 문의는 아래 연락처로 연락 부탁드립니다.</p>
+              <p className="sub-title">협업 및 제안 관련 문의는 아래 연락처로 연락 부탁드립니다.</p>
             </div>
             <div className="content-desc-box">
               <ul className="content-list">

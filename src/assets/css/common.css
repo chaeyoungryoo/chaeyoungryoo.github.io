@@ -26,13 +26,3 @@ img {
 #root {
   height: 100%;
 }
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.wrapper > * {
-  width: 100%;
-}
