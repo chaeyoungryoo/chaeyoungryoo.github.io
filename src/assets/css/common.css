@@ -26,3 +26,7 @@ img {
 #root {
   height: 100%;
 }
+
+strong {
+  font-weight: 600;
+}

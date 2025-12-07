@@ -91,7 +91,13 @@ function Projects() {
                         Hyundai Autoever
                       </span>
                     </div>
-                    <div className="desc">EN/TH 다국어 대응 및 컴포넌트 기반 구조화로 유지보수성과 확장성을 높였고, 반응형 구현과 Git 협업을 통해 일정 내 안정적인 런칭을 이끌었습니다.</div>
+                    <div className="desc">
+                      다국어(EN/TH) 기반 글로벌 사이트 구축 퍼블리싱을 담당했습니다.
+                      <br />
+                      Git 협업과 공통 컴포넌트 구조 설계를 통해 소스 품질을 관리했습니다.
+                      <br />
+                      접근성과 반응형도 고려하며 안정적으로 납기 내 완료했습니다.
+                    </div>
                     <div className="info-list-box">
                       <div className="info-list">
                         <div className="info-title">역할</div>
@@ -151,8 +157,11 @@ function Projects() {
                       </span>
                     </div>
                     <div className="desc">
-                      B tv 웹 서비스의 핵심 UI 컴포넌트를 단독으로 구축하고 운영 이슈를 지속적으로 대응했습니다. <br />
-                      Vue.js 기반 개발 환경과 공통 컴포넌트 적용을 통해 안정성과 일관성을 유지하며, QA/디자인 검수에 대한 빠른 피드백 반영으로 서비스 품질 향상에 기여했습니다.
+                      SKB B tv UI 퍼블리싱을 담당했습니다.
+                      <br />
+                      다양한 구형 환경에서도 안정적인 UI를 제공하기 위해 구조 개선 및 공통 컴포넌트 기반으로 작업했습니다.
+                      <br />
+                      Jira/Confluence 협업과 철저한 QA 대응을 통해 서비스 품질 개선에 기여했습니다.
                     </div>
                     <div className="info-list-box">
                       <div className="info-list">
@@ -222,9 +231,9 @@ function Projects() {
                       </span>
                     </div>
                     <div className="desc">
-                      공통 컴포넌트 중심으로 설계해 서비스 확장 및 기능 추가 시에도 빠르게 대응할 수 있는 구조를 만들었습니다.
+                      반응형 UI와 JavaScript 인터랙션 기반의 퍼블리싱을 담당했습니다.
                       <br />
-                      JavaScript & SCSS 기반 인터랙션과 지도 API 연결, 전 디바이스 반응형 대응을 통해 현재까지 안정적인 운영을 지원하고 있습니다.
+                      지도 API 적용 및 공통 컴포넌트 구조로 유지보수성을 높였고, 신규 서비스 기능이 추가될 때마다 빠르게 대응했습니다.
                     </div>
                     <div className="info-list-box">
                       <div className="info-list">
