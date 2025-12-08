@@ -159,6 +159,10 @@ const PageStyle = styled.div`
     .project-content-box {
       margin-top: 2rem;
     }
+    .project-slide-box {
+      max-width: 128rem;
+      margin: auto;
+    }
     .swiper {
       position: relative;
       .swiper-wrapper {
