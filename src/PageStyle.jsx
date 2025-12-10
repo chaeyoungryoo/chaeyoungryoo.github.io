@@ -74,7 +74,7 @@ const PageStyle = styled.div`
     .section-top {
       .title-box {
         .title {
-          font-size: 3rem;
+          font-size: 3.4rem;
           font-weight: 500;
           color: #222;
         }
@@ -136,7 +136,7 @@ const PageStyle = styled.div`
       margin-top: 8rem;
     }
     .project-title-box {
-      font-size: 2rem;
+      font-size: 2.2rem;
       font-weight: 500;
       color: #222;
       line-height: 1.4;
