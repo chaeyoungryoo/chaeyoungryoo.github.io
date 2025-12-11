@@ -1,0 +1,35 @@
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  * {
+    transition: none !important;
+  }
+  html,
+  body {
+    width: 297mm;
+    height: auto !important;
+    padding: 15mm 18mm;
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .header {
+    display: none !important;
+  }
+  .main .main-box {
+    max-width: unset;
+    padding: 0;
+  }
+  .section-container {
+    page-break-inside: avoid;
+  }
+  .section-container + .section-container {
+    page-break-before: always;
+  }
+  .swiper-slide {
+    width: 100% !important;
+  }
+}
